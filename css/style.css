@@ -2952,6 +2952,14 @@ textarea {
 	font-size: 40px;
 	line-height: 1.12;
 	letter-spacing: -2px;
+	margin-bottom: 5px;
+	color: var(--color-white);
+}
+
+.hero-area-v6 .hero-content .hero-title-2 {
+	font-size: 40px;
+	line-height: 1.12;
+	letter-spacing: -2px;
 	margin-bottom: 10px;
 	color: var(--color-white);
 }
