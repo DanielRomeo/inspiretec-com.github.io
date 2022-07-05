@@ -2975,22 +2975,14 @@ textarea {
 
 .hero-area-v6 .hero-content p {
 	font-size: 20px;
-	color: var(--color-white);
+	font-weight: bold;
+	color: var(--color-primary-3);
 	position: relative;
-	padding-left: 32px;
 	margin-top: 20px;
 	margin-bottom: 35px;
 }
 
-.hero-area-v6 .hero-content p::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 4px;
-	background-color: var(--color-white);
-}
+
 
 .hero-area-v6 .hero-content .template-btn {
 	-webkit-box-shadow: none;
