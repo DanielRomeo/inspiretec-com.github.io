@@ -3314,6 +3314,19 @@ textarea {
 	color: var(--color-white);
 }
 
+/*======= Information Section =======*/
+.information-section{
+	font-family: var(--font-cs-bold);
+	font-weight: lighter;
+}
+.information-section .container{
+	
+}
+
+.information-section h1{
+	font-size: 58px;
+}
+
 /*======= Common Heading =======*/
 .common-heading .tagline {
 	font-size: 18px;
