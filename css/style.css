@@ -8351,6 +8351,27 @@ textarea {
 .collaborate-section .preview-image-v2 img {
 	max-height: 800px;
 }
+.collaboration-section .container-fluid{
+	
+	/* height: 613px; */
+}
+.collaboration-section .container-fluid .row{
+	height: 613px;
+}
+.collaboration-section .container-fluid .left-side,
+.collaboration-section .container-fluid .right-side
+{
+	height: 613px;
+}
+.collaboration-section .right-side{
+	background-color: var(--color-primary);
+}
+.collaboration-section .right-side .common-heading .title{
+	color: var(--color-secondary);
+}
+.collaboration-section .right-side .collaboration-text p{
+	color: var(--color-grey);
+}
 
 /*======= Call to Action =======*/
 .cta-with-particle.cta-with-particle .container {
