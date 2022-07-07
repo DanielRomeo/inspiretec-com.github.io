@@ -3325,29 +3325,47 @@ textarea {
 	flex-direction: column;
 }
 .information-section .paragraph-section p{
-	font-weight: normal;
+	/* font-family: var(--font-cs-medium); */
+	/* font-weight: normal; */
 	margin: 10px;
 }
 .information-section h1{
 	font-size: 58px;
 }
-.information-section .icon-section{
-	/* display: flex;
-	justify-content: center;
-	padding-left: 600px;
-	padding-right: 100px;
-	padding-top: 50px;
-	padding-left: 50px; */
-}
 .information-section .icon-section .container{
 	/* padding: 100px; */
-	width: 800px;
+	max-width: 800px;
+}
+.information-section .icon-section .container .contained-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 .information-section .icon-section .icon-image-col{
 	max-height: 100px;
 }
 .information-section .icon-section .icon-image{
 	max-height: 100px;
+}
+@media (max-width: 396px) {
+	
+	.information-section .icon-section .icon-image-col{
+		width: 100px;
+	}
+}
+
+@media (min-width: 396px) and (max-width: 520px) {
+	
+	.information-section .icon-section .icon-image-col{
+		width: 130px;
+	}
+}
+@media (min-width: 520px) and (max-width: 578px) {
+	
+	.information-section .icon-section .icon-image-col{
+		width: 160px;
+	}
 }
 
 /*======= Common Heading =======*/
