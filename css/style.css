@@ -3370,10 +3370,11 @@ textarea {
 
 /*======= Common Heading =======*/
 .common-heading .tagline {
-	font-size: 18px;
+	font-size: 25px;
 	font-family: var(--font-cs-medium);
 	line-height: 1.4;
 	margin-bottom: 15px;
+	color: var(--color-primary-3);
 }
 
 .common-heading .title {
@@ -4098,9 +4099,9 @@ textarea {
 	margin-top: 30px;
 	color: var(--color-primary-4);
 	border: 2px solid #3377ff;
-	border-radius: 50%;
+	border-radius: 40px;
 	height: 50px;
-	width: 50px;
+	width: 280px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -4123,7 +4124,7 @@ textarea {
 	transform: translate(-50%, -50%);
 	width: 0;
 	height: 0;
-	border-radius: 50%;
+	border-radius: 40px;
 	z-index: -1;
 	background-color: var(--color-primary-4);
 	opacity: 0;
@@ -8420,6 +8421,34 @@ textarea {
 	border: 0px;
 }
 
+/*======= Connecting start area =======*/
+.app-feature .container .collaboration-text .common-text{
+	font-size: 20px;
+	position: relative;
+	padding-left: 32px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.app-feature .container .collaboration-text .common-text::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 4px;
+	background-color:var(--color-primary-7);
+}
+.app-feature .container .collaboration-text a{
+	color: var(--color-primary);
+	background-color: var(--color-primary-7);
+	border: 0px;
+}
+
+/*======= Platform area =======*/
+.feature-section .container-fluid{
+	padding-left: 100px;
+	padding-right: 100px;
+}
 
 /*======= Call to Action =======*/
 .cta-with-particle.cta-with-particle .container {
