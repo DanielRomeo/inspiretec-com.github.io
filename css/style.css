@@ -8394,17 +8394,10 @@ textarea {
 }
 
 /*======= Reservation area =======*/
-.design-feature-area{
 
-}
-.design-feature-area .container .row{
-
-}
 .design-feature-area .container .row .column-left{
 	text-align: right;
 }
-
-
 .design-feature-area .container .row .column-left .design-feature-text p{
 }
 .design-feature-area .container .row .column-left .design-feature-text .common-text{
@@ -8420,19 +8413,11 @@ textarea {
 	background-color: orange;
 	margin-left: 30px;
 }
-.design-feature-area .container .row .column-right{
-	
-}
+
 .design-feature-area .container .row .column-left .design-feature-text a{
 	color: var(--color-primary);
 	background-color: orange;
 	border: 0px;
-}
-@media (max-width: 396px) {
-	.design-feature-area .container .row .column-left .design-feature-text{
-		
-	}
-	
 }
 
 
