@@ -8353,7 +8353,7 @@ textarea {
 }
 .collaboration-section .container-fluid{
 	
-	/* height: 613px; */
+	
 }
 .collaboration-section .container-fluid .row{
 	height: 613px;
@@ -8363,15 +8363,63 @@ textarea {
 {
 	height: 613px;
 }
+.collaboration-section .container-fluid .left-side{
+	
+}
 .collaboration-section .right-side{
 	background-color: var(--color-primary);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
 }
 .collaboration-section .right-side .common-heading .title{
 	color: var(--color-secondary);
 }
+.collaboration-section .right-side .collaboration-text {
+	
+}
 .collaboration-section .right-side .collaboration-text p{
 	color: var(--color-grey);
 }
+.collaboration-section .right-side .collaboration-text .template-btn{
+	background-color: inherit;
+	border: 3px solid var(--color-primary-3);
+	color:  var(--color-primary-3);
+	font-size: 18px;
+	font-weight: normal;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+/*======= Reservation area =======*/
+
+.design-feature-area .container .row .column-left{
+	text-align: right;
+}
+.design-feature-area .container .row .column-left .design-feature-text p{
+}
+.design-feature-area .container .row .column-left .design-feature-text .common-text{
+	margin-right: 30px;
+	position: relative;
+}
+.design-feature-area .container .row .column-left .design-feature-text .common-text::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	height:100%;
+	width: 4px;
+	background-color: orange;
+	margin-left: 30px;
+}
+
+.design-feature-area .container .row .column-left .design-feature-text a{
+	color: var(--color-primary);
+	background-color: orange;
+	border: 0px;
+}
+
 
 /*======= Call to Action =======*/
 .cta-with-particle.cta-with-particle .container {
