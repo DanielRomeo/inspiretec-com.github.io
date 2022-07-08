@@ -8363,6 +8363,9 @@ textarea {
 {
 	height: 613px;
 }
+.collaboration-section .container-fluid .left-side{
+	
+}
 .collaboration-section .right-side{
 	background-color: var(--color-primary);
 	display: flex;
@@ -8389,6 +8392,49 @@ textarea {
 	padding-left: 60px;
 	padding-right: 60px;
 }
+
+/*======= Reservation area =======*/
+.design-feature-area{
+
+}
+.design-feature-area .container .row{
+
+}
+.design-feature-area .container .row .column-left{
+	text-align: right;
+}
+
+
+.design-feature-area .container .row .column-left .design-feature-text p{
+}
+.design-feature-area .container .row .column-left .design-feature-text .common-text{
+	margin-right: 30px;
+	position: relative;
+}
+.design-feature-area .container .row .column-left .design-feature-text .common-text::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	height:100%;
+	width: 4px;
+	background-color: orange;
+	margin-left: 30px;
+}
+.design-feature-area .container .row .column-right{
+	
+}
+.design-feature-area .container .row .column-left .design-feature-text a{
+	color: var(--color-primary);
+	background-color: orange;
+	border: 0px;
+}
+@media (max-width: 396px) {
+	.design-feature-area .container .row .column-left .design-feature-text{
+		
+	}
+	
+}
+
 
 /*======= Call to Action =======*/
 .cta-with-particle.cta-with-particle .container {
