@@ -3369,10 +3369,15 @@ textarea {
 .newsletter-area{
 	background-color: var(--color-body);
 	color: white;
+	height: 600px;
 
 }
 .newsletter-area .newsletter-text .title{
+	font-size: 60px;
 	color: var(--color-white);
+}
+.newsletter-area .newsletter-text .title span{
+	font-size: 40px;
 }
 .newsletter-area .newsletter-form .input-field button{
 	background-color: var(--color-primary-3);
@@ -3385,11 +3390,16 @@ textarea {
 	display: flex;
 	flex-direction: row;
 	justify-content: start;
+	/* height: 200px; */
+	/* align-items: center; */
+	/* text-align: center; */
+	/* border: 1px solid white; */
+	align-items: center;
 }
 .newsletter-area .newsletter-form .form-check input{
 	border-radius: 0px;
-	height: 30px;
-	width: 30px;
+	height: 48px;
+	width: 48px;
 	position: relative;
 	margin-right: 5px;
 }
