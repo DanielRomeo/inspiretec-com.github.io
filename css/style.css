@@ -3376,7 +3376,10 @@ textarea {
 }
 .newsletter-area .newsletter-form .input-field button{
 	background-color: var(--color-primary-3);
+	color: var(--color-primary);
 	width: 220px;
+	border: 0px;
+	font-size: 20px;
 }
 .newsletter-area .newsletter-form .form-check{
 	display: flex;
@@ -3389,6 +3392,10 @@ textarea {
 	width: 30px;
 	position: relative;
 	margin-right: 5px;
+}
+.newsletter-area .newsletter-form .form-check input[type='checkbox'] {
+    accent-color: var(--color-white);
+	color: red;
 }
 
 
