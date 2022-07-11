@@ -3325,15 +3325,12 @@ textarea {
 	flex-direction: column;
 }
 .information-section .paragraph-section p{
-	/* font-family: var(--font-cs-medium); */
-	/* font-weight: normal; */
 	margin: 10px;
 }
 .information-section h1{
 	font-size: 58px;
 }
 .information-section .icon-section .container{
-	/* padding: 100px; */
 	max-width: 800px;
 }
 .information-section .icon-section .container .contained-row{
@@ -3367,6 +3364,50 @@ textarea {
 		width: 160px;
 	}
 }
+
+/*======= Newsletter Section =======*/
+.newsletter-area{
+	background-color: var(--color-body);
+	color: white;
+	height: 600px;
+
+}
+.newsletter-area .newsletter-text .title{
+	font-size: 60px;
+	color: var(--color-white);
+}
+.newsletter-area .newsletter-text .title span{
+	font-size: 40px;
+}
+.newsletter-area .newsletter-form .input-field button{
+	background-color: var(--color-primary-3);
+	color: var(--color-primary);
+	width: 220px;
+	border: 0px;
+	font-size: 20px;
+}
+.newsletter-area .newsletter-form .form-check{
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	/* height: 200px; */
+	/* align-items: center; */
+	/* text-align: center; */
+	/* border: 1px solid white; */
+	align-items: center;
+}
+.newsletter-area .newsletter-form .form-check input{
+	border-radius: 0px;
+	height: 48px;
+	width: 48px;
+	position: relative;
+	margin-right: 5px;
+}
+.newsletter-area .newsletter-form .form-check input[type='checkbox'] {
+    accent-color: var(--color-white);
+	color: red;
+}
+
 
 /*======= Common Heading =======*/
 .common-heading .tagline {
@@ -7665,7 +7706,7 @@ textarea {
 }
 
 .newsletter-form.form-two .input-field input {
-	border-radius: 7px;
+	border-radius: 0px;
 	height: 65px;
 	padding-left: 30px;
 	padding-right: 0;
