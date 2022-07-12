@@ -3366,52 +3366,23 @@ textarea {
 }
 
 /*======= Feature Section =======*/
-/* .feature-section .container-fluid{
-	padding-left: 100px;
-	padding-right: 100px;
-}
 .feature-section .iconic-box{
-	height: 365px;
+	min-height: 450px;
 }
 .feature-section .iconic-box p{
-	border: 4px solid purple;
-	height: 150px;
+	min-height: 200px;
 }
-@media (max-width: 550px) {
-	.feature-section .container-fluid{
-		padding-left: 40px;
-		padding-right: 40px;
-
+@media (max-width: 767px) {
+	.feature-section .iconic-box p{
+		min-height: auto;
 	}
 	.feature-section .iconic-box{
-		min-height: 440px;
-		border: 1px solid green;
+		text-align: center;
 	}
-	.feature-section .iconic-box p{
-		min-height: 230px;
+	.feature-section .iconic-box .box-link {
+		width: auto !important;
 	}
-	.feature-section .iconic-boxes-v2 .box-link {
-		background-color: blue;
-	}
-	
-} */
-/* mUltra small or smaller*/
-/* @media (max-width: 365px) {
-	.feature-section .iconic-box{
-		min-height: 510px;
-	}
-	.feature-section .iconic-box p{
-		min-height: 260px;
-	}
-	.feature-section .iconic-boxes-v2 .box-link {
-		font-size: 15px;
-		max-width: 200px;
-	}
-} */
-
-
-
-
+}
 
 /*======= Newsletter Section =======*/
 .newsletter-area{
