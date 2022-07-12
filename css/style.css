@@ -3365,12 +3365,30 @@ textarea {
 	}
 }
 
+/*======= Feature Section =======*/
+.feature-section .iconic-box{
+	min-height: 450px;
+}
+.feature-section .iconic-box p{
+	min-height: 200px;
+}
+@media (max-width: 767px) {
+	.feature-section .iconic-box p{
+		min-height: auto;
+	}
+	.feature-section .iconic-box{
+		text-align: center;
+	}
+	.feature-section .iconic-box .box-link {
+		width: auto !important;
+	}
+}
+
 /*======= Newsletter Section =======*/
 .newsletter-area{
 	background-color: var(--color-body);
 	color: white;
-	height: 600px;
-
+	height: 500px;
 }
 .newsletter-area .newsletter-text .title{
 	font-size: 60px;
@@ -3381,6 +3399,9 @@ textarea {
 	color: var(--color-white);
 	font-size: 25px;
 	letter-spacing: 2px;
+}
+.newsletter-area .newsletter-form .input-field input{	
+	height: 1px;
 }
 .newsletter-area .newsletter-form .input-field input::placeholder{	
 	opacity: 0.5;
@@ -3394,9 +3415,12 @@ textarea {
 .newsletter-area .newsletter-form .input-field button{
 	background-color: var(--color-primary-3);
 	color: var(--color-primary);
+	height: 50px;
 	width: 220px;
 	border: 0px;
 	font-size: 20px;
+	padding: 0px;
+	border: 1px solid var(--color-primary-3);
 }
 .newsletter-area .newsletter-form .form-check{
 	display: flex;
@@ -3414,6 +3438,21 @@ textarea {
 
 .newsletter-area .newsletter-form .form-check input[type='checkbox'] {
     accent-color: var(--color-white);
+}
+@media (max-width: 550px) {
+	
+	.newsletter-area{
+		height: 600px;
+	}
+	.newsletter-area .newsletter-text .title{
+		font-size: 50px;
+	}
+}
+
+/*======= Custom footer section =======*/
+.template-footer .footer-copyright .container .row{
+	display: flex;
+	justify-content: space-around;
 }
 
 
@@ -7715,7 +7754,7 @@ textarea {
 
 .newsletter-form.form-two .input-field input {
 	border-radius: 0px;
-	height: 65px;
+	height: 50px;
 	padding-left: 30px;
 	padding-right: 0;
 	width: calc(100% - 230px);
@@ -8401,10 +8440,6 @@ textarea {
 .collaborate-section .preview-image-v2 img {
 	max-height: 800px;
 }
-.collaboration-section .container-fluid{
-	
-	
-}
 .collaboration-section .container-fluid .row{
 	height: 613px;
 }
@@ -8412,9 +8447,6 @@ textarea {
 .collaboration-section .container-fluid .right-side
 {
 	height: 613px;
-}
-.collaboration-section .container-fluid .left-side{
-	
 }
 .collaboration-section .right-side{
 	background-color: var(--color-primary);
@@ -8426,9 +8458,6 @@ textarea {
 }
 .collaboration-section .right-side .common-heading .title{
 	color: var(--color-secondary);
-}
-.collaboration-section .right-side .collaboration-text {
-	
 }
 .collaboration-section .right-side .collaboration-text p{
 	color: var(--color-grey);
@@ -8443,7 +8472,7 @@ textarea {
 	padding-right: 60px;
 }
 
-/*======= Reservation area =======*/
+/*======= Platform area =======*/
 
 .design-feature-area .container .row .column-left{
 	text-align: right;
@@ -8470,6 +8499,7 @@ textarea {
 	border: 0px;
 }
 
+
 /*======= Connecting start area =======*/
 .app-feature .container .collaboration-text .common-text{
 	font-size: 20px;
@@ -8493,11 +8523,7 @@ textarea {
 	border: 0px;
 }
 
-/*======= Platform area =======*/
-.feature-section .container-fluid{
-	padding-left: 100px;
-	padding-right: 100px;
-}
+
 
 /*======= Call to Action =======*/
 .cta-with-particle.cta-with-particle .container {
