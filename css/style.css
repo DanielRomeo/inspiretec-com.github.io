@@ -3418,10 +3418,9 @@ textarea {
 	background-color: var(--color-body);
 	color: white;
 	height: 500px;
-
 }
 .newsletter-area .newsletter-text .title{
-	/* font-size: 60px; */
+	font-size: 60px;
 	color: var(--color-white);
 	letter-spacing: 2px;
 }
@@ -3473,6 +3472,9 @@ textarea {
 	
 	.newsletter-area{
 		height: 600px;
+	}
+	.newsletter-area .newsletter-text .title{
+		font-size: 50px;
 	}
 }
 
