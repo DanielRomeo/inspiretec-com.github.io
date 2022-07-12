@@ -3375,9 +3375,21 @@ textarea {
 .newsletter-area .newsletter-text .title{
 	font-size: 60px;
 	color: var(--color-white);
+	letter-spacing: 2px;
 }
-.newsletter-area .newsletter-text .title span{
-	font-size: 40px;
+.newsletter-area .newsletter-text .subtitle{
+	color: var(--color-white);
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+.newsletter-area .newsletter-form .input-field input::placeholder{	
+	opacity: 0.5;
+}
+.newsletter-area .newsletter-form .input-field input:-ms-input-placeholder{	
+	opacity: 0.5;
+}
+.newsletter-area .newsletter-form .input-field input::-ms-input-placeholder{
+	opacity: 0.5;
 }
 .newsletter-area .newsletter-form .input-field button{
 	background-color: var(--color-primary-3);
@@ -3390,10 +3402,6 @@ textarea {
 	display: flex;
 	flex-direction: row;
 	justify-content: start;
-	/* height: 200px; */
-	/* align-items: center; */
-	/* text-align: center; */
-	/* border: 1px solid white; */
 	align-items: center;
 }
 .newsletter-area .newsletter-form .form-check input{
@@ -3403,9 +3411,9 @@ textarea {
 	position: relative;
 	margin-right: 5px;
 }
+
 .newsletter-area .newsletter-form .form-check input[type='checkbox'] {
     accent-color: var(--color-white);
-	color: red;
 }
 
 
