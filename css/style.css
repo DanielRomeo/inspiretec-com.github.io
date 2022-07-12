@@ -3366,18 +3366,26 @@ textarea {
 }
 
 /*======= Feature Section =======*/
+.feature-section{
+	padding-bottom: 0px;
+}
 .feature-section .iconic-box{
 	min-height: 450px;
+	margin-bottom: 0px;
 }
 .feature-section .iconic-box p{
 	min-height: 200px;
 }
 @media (max-width: 767px) {
+	.feature-section{
+		padding-bottom: 0px;
+	}
 	.feature-section .iconic-box p{
 		min-height: auto;
 	}
 	.feature-section .iconic-box{
 		text-align: center;
+		height: auto;
 	}
 	.feature-section .iconic-box .box-link {
 		width: auto !important;
