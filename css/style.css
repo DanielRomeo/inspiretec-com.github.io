@@ -3477,7 +3477,7 @@ textarea {
 	align-items: center;
 	padding-left: 45px;
 	padding-right: 45px;
-	line-height: 100px;
+	/* line-height: 100px; */
 }
 .statistics-section  .container-fluid .row .left-side .common-heading .title{
 	font-size: 70px;
@@ -3498,6 +3498,40 @@ textarea {
 }
 .statistics-section .container-fluid .row .right-side .counter-item .title{
 	font-size: 23px;
+}
+/* tablet or smaller */
+@media (max-width: 1368px) {
+	.statistics-section .container-fluid .row .right-side .counter-wrap .counter{
+		font-size: 80px;
+	}
+	.statistics-section .container-fluid .row .right-side .counter-item .title{
+		font-size: 15px;
+	}
+	.statistics-section{
+		height: auto;
+	}
+}
+/* smartphone or smaller */
+@media (max-width: 573px) {
+	.statistics-section .container-fluid .row .right-side .counter-items-v2{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.statistics-section .container-fluid .row .right-side .counter-items-v2 div{
+		width: auto;
+	}
+	.statistics-section  .container-fluid .row .left-side .common-heading .title{
+		font-size: 30px;
+	}
+	.statistics-section .container-fluid .row .left-side{
+		text-align: center;
+		background-color: #bbc5d2;
+		padding-top: 50px;
+	}
+	.statistics-section  .container-fluid .row .left-side .common-heading p{
+		font-size: 17px;
+	}
 }
 
 
