@@ -3541,17 +3541,44 @@ textarea {
 	padding-right: 50px;
 }
 .template-footer .widget .social-links{
-	/* background-color: #00b9ee; */
 	display: flex;
 	flex-direction: row;
 	justify-content: end;
+
+}
+.template-footer .widget .social-links *{
+	color: var(--color-primary);
+	font-size: 40px;
+	margin: 10px;
 }
 .template-footer .footer-copyright .container .row{
 	
 	display: flex;
 	justify-content: space-around;
 }
-
+.template-footer .footer-form{
+	/* background-color: green; */
+}
+.template-footer .footer-form .input-field input{
+	border: 1px solid grey;
+	margin: 5px;
+	width: auto;
+	background-color: var(--color-white);
+}
+.template-footer .footer-form .checkbox-group{
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	position: relative;
+}
+.template-footer .footer-form .checkbox-group .form-check-input{
+	height: 25px;
+	width: 25px;
+	border-radius: 0px;
+	position: relative;
+	margin-left: 0px;
+}
 
 /*======= Common Heading =======*/
 .common-heading .tagline {
