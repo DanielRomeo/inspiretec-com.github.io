@@ -3556,6 +3556,12 @@ textarea {
 	/* color:green; */
 	font-size: 27px;
 }
+.template-footer .widget ul{
+	margin-top: 28px;
+}
+.template-footer .widget p:first-of-type{
+	margin-top: 28px;
+}
 .template-footer .footer-copyright .container .row{
 	
 	display: flex;
