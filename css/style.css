@@ -3556,6 +3556,15 @@ textarea {
 	/* color:green; */
 	font-size: 27px;
 }
+.template-footer .widget ul{
+	margin-top: 28px;
+}
+.template-footer .widget .footer-logo{
+	margin-bottom: 0px !important;
+}
+.template-footer .widget p:first-of-type{
+	margin-top: 28px;
+}
 .template-footer .footer-copyright .container .row{
 	
 	display: flex;
@@ -3571,7 +3580,8 @@ textarea {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background-color: var(--color-white);
-	font-size: 18px;
+	font-size: 16px;
+	height: 50px;
 }
 .template-footer .footer-form .input-field input::placeholder{	
 	opacity: 0.5;
