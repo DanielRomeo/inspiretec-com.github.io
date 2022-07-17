@@ -3539,6 +3539,7 @@ textarea {
 	background-color: #f5f5f5;
 	padding-left: 50px;
 	padding-right: 50px;
+	min-height: 600px;
 }
 .template-footer .widget .social-links{
 	display: flex;
@@ -3551,6 +3552,10 @@ textarea {
 	font-size: 40px;
 	margin: 10px;
 }
+.template-footer .widget .widget-title{
+	color:green;
+	font-size: 27px;
+}
 .template-footer .footer-copyright .container .row{
 	
 	display: flex;
@@ -3561,9 +3566,20 @@ textarea {
 }
 .template-footer .footer-form .input-field input{
 	border: 1px solid grey;
-	margin: 5px;
-	width: auto;
+	/* margin: 5px; */
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	background-color: var(--color-white);
+}
+.template-footer .footer-form .input-field input::placeholder{	
+	opacity: 0.5;
+}
+.template-footer .footer-form .input-field input:-ms-input-placeholder{	
+	opacity: 0.5;
+}
+.template-footer .footer-form .input-field input::-ms-input-placeholder{
+	opacity: 0.5;
 }
 .template-footer .footer-form .checkbox-group{
 	display: flex;
@@ -9811,10 +9827,10 @@ textarea {
 	color: var(--color-primary-5);
 }
 
-.footer-widgets .widget .widget-title {
-	font-size: 22px;
+/* .footer-widgets .widget .widget-title {
+	font-size: px;
 	margin-bottom: 35px;
-}
+} */
 
 .footer-widgets .widget.text-block-widget img {
 	margin-bottom: 30px;
