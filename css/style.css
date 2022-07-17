@@ -3618,6 +3618,30 @@ textarea {
 	font-weight: bold;
 }
 
+@media (max-width: 1294px) {
+	.template-footer .footer-form .input-field input{
+		font-size: 14px;
+	}
+	.template-footer .footer-form .checkbox-group label{
+		letter-spacing: 1px;
+		font-size: 12px;
+	}
+}
+/* small devices */
+@media (max-width: 425px) {
+	.template-footer .widget .social-links{
+		background-color: green;
+		display: none;
+	}
+	.template-footer .mailinglist-col{
+		display: none;
+	}
+	.template-footer .widget p{
+		color: green;
+		margin-top: 17px;
+	}
+	
+}
 
 /*======= Common Heading =======*/
 .common-heading .tagline {
