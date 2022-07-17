@@ -3553,7 +3553,7 @@ textarea {
 	margin: 10px;
 }
 .template-footer .widget .widget-title{
-	color:green;
+	/* color:green; */
 	font-size: 27px;
 }
 .template-footer .footer-copyright .container .row{
