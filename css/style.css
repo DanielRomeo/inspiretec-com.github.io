@@ -3617,6 +3617,9 @@ textarea {
 	color: var(--color-secondary);
 	font-weight: bold;
 }
+.footer-copyright .container .social-media-section-mobile {
+	display: none;
+}
 
 @media (max-width: 1294px) {
 	.template-footer .footer-form .input-field input{
@@ -3639,6 +3642,28 @@ textarea {
 	.template-footer .widget p{
 		color: green;
 		margin-top: 17px;
+	}
+	.footer-copyright .container .row{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.footer-copyright .container .row p{
+		font-size: 16px;
+	}
+	.template-footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.footer-copyright .container .social-media-section-mobile {
+		display: block;
 	}
 	
 }
