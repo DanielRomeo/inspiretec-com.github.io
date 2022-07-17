@@ -3630,6 +3630,16 @@ textarea {
 		font-size: 12px;
 	}
 }
+/* tablet devices */
+@media (max-width: 768px) {
+	.footer-copyright .container .row{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+}
 /* small devices */
 @media (max-width: 425px) {
 	.template-footer .widget .social-links{
@@ -3664,6 +3674,10 @@ textarea {
 	}
 	.footer-copyright .container .social-media-section-mobile {
 		display: block;
+	}
+	.footer-copyright .container .social-media-section-mobile .social-links{
+		font-size: 32px;
+		color: var(--color-primary);
 	}
 	
 }
