@@ -8790,26 +8790,43 @@ textarea {
 	position: relative;
 }
 .collaboration-section .left-side img{
-	/* margin-top: auto;
-	width: 100%;
-	bottom: 0;
-	top: 0;	
-	position: absolute; */
-	/* position: fixed; */
 	position: absolute;	
-	/* right: 0; */
 	height: 600px;
 	bottom: 0;
 	right: 0;
-	/* margin-left: 60px; */
 }
-@media (min-width: 1426px) {
-	.collaboration-section .left-side img{
-		/* height: auto; */
-		/* max-height: fit-content;
-		margin-left: 60px;
-		bottom: 0; */
+.collaboration-section .right-side .collaboration-text .responsive-image{
+	display: none;
+}
 
+@media (max-width: 994px) {
+	.collaboration-section {
+		min-height: 1000px;
+	}
+	.collaboration-section .right-side{
+		min-height: 1000px;
+	}
+	.collaboration-section .left-side{
+		/* padding-right: 0px; */
+		position: absolute;
+	}
+	.collaboration-section .left-side img{
+		display: none;
+	}
+	.collaboration-section .right-side{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.collaboration-section .right-side .collaboration-text .responsive-image{
+		display: block;
+		width: 300px;
+		height: 300px;
+		/* top: auto; */
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
