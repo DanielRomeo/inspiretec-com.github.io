@@ -3535,26 +3535,40 @@ textarea {
 
 /*======= Testimonials Section  =======*/
 .testimonials-section{
-	/* height: 300px; */
+	height: 800px;
+	padding-top: 50px;
 }
-.testimonials-section .container .left-side{
+.testimonials-section .container-fluid{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.testimonials-section .container-fluid .top-side{
+	display: none;
+}
+.testimonials-section .container-fluid .right-side .common-heading img{
+	height: auto;
+	width: auto;
+}
+.testimonials-section .container-fluid .left-side{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: left;
 }
-.testimonials-section .container .left-side .common-heading{
+.testimonials-section .container-fluid .left-side .common-heading{
 	color: var(--color-primary);
 }
-.testimonials-section .container .left-side  .quote-owner p{
+.testimonials-section .container-fluid .left-side  .quote p{
+	font-size: 23px;
+}
+.testimonials-section .container-fluid .left-side  .quote-owner p{
 	font-style: italic;
 }
-.testimonials-section .container .common-heading i{
+.testimonials-section .container-fluid .common-heading i{
 	color: var(--color-secondary);
 	font-size: 40px;
 }
 .testimonials-section .testimonial-button{
-	/* width: 100%; */
 	width: 400px;
 	border: 3px solid var(--color-secondary);
 	border-radius: 30px;
@@ -3568,6 +3582,41 @@ textarea {
 	color: var(--color-secondary);
 	font-weight: bold;
 	background-color: inherit;
+}
+@media (max-width: 994px) {
+	.testimonials-section{
+		height: auto;
+	}
+	.testimonials-section .container-fluid{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.testimonials-section .container-fluid .top-side{
+		display: block;
+	}
+	.testimonials-section .container-fluid .right-side{
+		display: none;
+	}
+	.testimonials-section .container-fluid .left-side{
+		background-color: #F2F5FE;
+	}
+	.testimonials-section .container-fluid .left-side  .quote-marks{
+	
+	}
+	.testimonials-section .container-fluid .left-side  .quote p{
+		font-size: 18px;
+	}
+	.testimonials-section .testimonial-button{
+		width: auto;
+		font-size: 16px;
+	}
+}
+/* extra small devices */
+@media (max-width: 394px) {
+	.testimonials-section .testimonial-button{
+		border-radius: 30px;
+		height: 80px;
+	}
 }
 
 /*======= Custom footer section =======*/
