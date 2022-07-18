@@ -8939,14 +8939,14 @@ textarea {
 }
 
 /*======= Connecting start area =======*/
-.app-feature .container .collaboration-text .common-text{
+.app-feature .container-fluid .collaboration-text .common-text{
 	font-size: 20px;
 	position: relative;
 	padding-left: 32px;
 	margin-top: 20px;
 	margin-bottom: 35px;
 }
-.app-feature .container .collaboration-text .common-text::before{
+.app-feature .container-fluid .collaboration-text .common-text::before{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -8955,12 +8955,71 @@ textarea {
 	width: 4px;
 	background-color:var(--color-primary-7);
 }
-.app-feature .container .collaboration-text a{
+.app-feature .container-fluid .collaboration-text a{
 	color: var(--color-primary);
 	background-color: var(--color-primary-7);
 	border: 0px;
 }
+.app-feature .container-fluid .left-side{
+	padding-left: 0px;
+	/* position: relative; */
+}
+.app-feature .container-fluid .left-side img{
+	/* position: absolute;	 */
+	/* height: 600px; */
+	bottom: 0;
+	left: 0;
+}
+.app-feature .container-fluid .right-side{
+	padding-bottom: 20px;
+}
+.app-feature .container-fluid .bottom-side{
+	display: none;
+}
+/* larger devices going up */
+@media (min-width: 1320px) {
+	
+}
+@media (max-width: 1342px) {
+	.app-feature{
+		height: auto;
+	}
+}
+@media (max-width: 768px) {
+	.app-feature{
+		/* background-color: green; */
+	}
+	.app-feature .container-fluid{
+		padding: 0px;
+	}
+	.app-feature .container-fluid .collaboration-text{
+		padding: 30px;
+	}
+	.app-feature .container-fluid .left-side{
+		padding-left: 0px;
+		display: none;
+	}
+	.app-feature .container-fluid .right-side{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.app-feature .container-fluid .bottom-side{
+		display: block;
+	}
+	.app-feature .container-fluid .collaboration-text .common-text::before{
+		display: none;
+	}
+	.app-feature .container-fluid .collaboration-text .common-text{
+		padding-left: 0px;
+	}
+	.app-feature .container-fluid .collaboration-text .responsive-button{
+		width: 80%	;
+		margin-left: 20px;
+	}
 
+}
 
 
 /*======= Call to Action =======*/
