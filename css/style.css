@@ -8785,6 +8785,29 @@ textarea {
 	padding-left: 60px;
 	padding-right: 60px;
 }
+.collaboration-section .left-side{
+	padding-right: 0px;
+	position: relative;
+}
+.collaboration-section .left-side img{
+	margin-top: auto;
+	/* height: 100%; */
+	width: 100%;
+	bottom: 0;
+	top: 0;	
+	/* width: auto;
+	height: auto; */
+	position: absolute;
+}
+@media (min-width: 1426px) {
+	.collaboration-section .left-side img{
+		/* height: auto; */
+		/* max-height: fit-content;
+		margin-left: 60px;
+		bottom: 0; */
+
+	}
+}
 
 /*======= Platform area =======*/
 
