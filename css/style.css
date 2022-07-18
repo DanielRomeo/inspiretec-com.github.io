@@ -8790,14 +8790,18 @@ textarea {
 	position: relative;
 }
 .collaboration-section .left-side img{
-	margin-top: auto;
-	/* height: 100%; */
+	/* margin-top: auto;
 	width: 100%;
 	bottom: 0;
 	top: 0;	
-	/* width: auto;
-	height: auto; */
-	position: absolute;
+	position: absolute; */
+	/* position: fixed; */
+	position: absolute;	
+	/* right: 0; */
+	height: 600px;
+	bottom: 0;
+	right: 0;
+	/* margin-left: 60px; */
 }
 @media (min-width: 1426px) {
 	.collaboration-section .left-side img{
