@@ -287,6 +287,7 @@ span {
 }
 
 .slick-dots {
+	/* display: none; */
 	text-align: center;
 	margin-top: 80px;
 	display: -webkit-box;
@@ -3259,7 +3260,8 @@ textarea {
 	position: absolute;
 	right: 13%;
 	top: 50%;
-	display: block;
+	/* display: block; */
+	display: none;
 	margin: 0;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
