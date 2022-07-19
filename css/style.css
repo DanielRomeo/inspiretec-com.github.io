@@ -286,8 +286,9 @@ span {
 	opacity: 0.1;
 }
 
+
 .slick-dots {
-	/* display: none; */
+
 	text-align: center;
 	margin-top: 80px;
 	display: -webkit-box;
@@ -302,6 +303,7 @@ span {
 }
 
 .slick-dots li {
+
 	position: relative;
 	display: inline-block;
 	line-height: 1;
@@ -3282,6 +3284,7 @@ textarea {
 }
 
 .hero-slider .slick-arrow {
+	/* visibility: none; */
 	position: absolute;
 	right: 4%;
 	bottom: 0;
@@ -3305,6 +3308,7 @@ textarea {
 	transition: 0.3s;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+	display: none;
 }
 
 .hero-slider .slick-arrow.prev-arrow {

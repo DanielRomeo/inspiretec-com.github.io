@@ -442,8 +442,8 @@
             fade: false,
             dots: true,
             swipe: true,
-            prevArrow: '<button class="slick-arrow prev-arrow"><i  class="fas fa-angle-left"></i></button>',
-            nextArrow: '<button class="slick-arrow next-arrow"><i  class="fas fa-angle-right"></i></button>',
+            prevArrow: '',
+            nextArrow: '',
             responsive: [
                 {
                     breakpoint: 576,
