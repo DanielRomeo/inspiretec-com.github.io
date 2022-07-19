@@ -3324,7 +3324,6 @@ textarea {
 
 /*======= Information Section =======*/
 .information-section{
-	/* font-family: var(--font-cs-bold); */
 	
 }
 .information-section .paragraph-section{
@@ -3348,9 +3347,43 @@ textarea {
 }
 .information-section .icon-section .icon-image-col{
 	max-height: 100px;
+	/* border: 1px solid black; */
 }
 .information-section .icon-section .icon-image{
-	max-height: 100px;
+	/* border: 2px solid black; */
+	
+}
+.information-section .icon-section .icon-image{
+	
+}
+.information-section .icon-section .contained-row .icon-image-col:nth-last-child(6) .icon-image,
+.information-section .icon-section .contained-row .icon-image-col:nth-last-child(4) .icon-image,
+.information-section .icon-section .contained-row .icon-image-col:nth-last-child(3) .icon-image,
+.information-section .icon-section .contained-row .icon-image-col:nth-last-child(2) .icon-image,
+.information-section .icon-section .contained-row .icon-image-col:nth-last-child(1) .icon-image{
+	height: 100px;
+	/* border: 2px solid purple; */
+	/* height: 153px; */
+}
+@media (min-width: 993px) {
+	.information-section .icon-section .contained-row div:nth-last-child(3){
+		padding-left: 54px;
+	}
+}
+@media(min-width: 767px ) and (max-width: 993px){
+	.information-section .icon-section .contained-row div:nth-last-child(3){
+		/* background-color: green; */
+		padding-left: 40px;
+	}
+}
+@media(max-width: 767px ){
+	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(6) .icon-image,
+	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(4) .icon-image,
+	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(3) .icon-image,
+	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(2) .icon-image,
+	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(1) .icon-image{
+		height: auto;
+	}
 }
 @media (max-width: 396px) {
 	
@@ -3379,6 +3412,12 @@ textarea {
 .feature-section .iconic-box{
 	min-height: 450px;
 	margin-bottom: 0px;
+	
+}
+.feature-section .iconic-boxes-v2{
+	
+	padding-left: 60px;
+	padding-right: 60px;
 }
 .feature-section .iconic-box p{
 	min-height: 200px;
