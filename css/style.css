@@ -3379,6 +3379,12 @@ textarea {
 .feature-section .iconic-box{
 	min-height: 450px;
 	margin-bottom: 0px;
+	
+}
+.feature-section .iconic-boxes-v2{
+	
+	padding-left: 60px;
+	padding-right: 60px;
 }
 .feature-section .iconic-box p{
 	min-height: 200px;
