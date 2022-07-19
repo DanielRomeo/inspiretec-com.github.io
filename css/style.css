@@ -3718,7 +3718,7 @@ textarea {
 .template-footer .footer-form .checkbox-group input[type="checkbox"]{
 	accent-color: var(--color-white);
 }
-.testimonials-section .testimonial-button:hover{
+.template-footer .footer-form .signup-button:hover{
 	background-color: var(--color-secondary);
 	color: white;
 }
