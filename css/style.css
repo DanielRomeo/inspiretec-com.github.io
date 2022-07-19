@@ -3316,8 +3316,7 @@ textarea {
 
 /*======= Information Section =======*/
 .information-section{
-	font-family: var(--font-cs-bold);
-	font-weight: lighter;
+	/* font-family: var(--font-cs-bold); */
 	
 }
 .information-section .paragraph-section{
