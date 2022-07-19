@@ -8807,7 +8807,12 @@ textarea {
 .collaboration-section .right-side .collaboration-text p{
 	color: var(--color-grey);
 }
+.collaboration-section .right-side .collaboration-text .template-btn:hover{
+	background-color: var(--color-secondary);
+	color: var(--color-white);
+}
 .collaboration-section .right-side .collaboration-text .template-btn{
+	transition: 0.7s;
 	background-color: inherit;
 	border: 3px solid var(--color-primary-3);
 	color:  var(--color-primary-3);
@@ -8901,12 +8906,7 @@ textarea {
 .design-feature-area .container-fluid .row .column-right{
 	position: relative;
 }
-.design-feature-area .container-fluid .row .column-right img{
-	/* position: absolute;	
-	height: 700px;
-	top: 0;
-	right: 0; */
-}
+
 .design-feature-area .container-fluid .row .column-right .template-btn {
 	display: none;
 }
@@ -8918,7 +8918,6 @@ textarea {
 	transition: 0.7s;
 	margin-left: 20px;
 }
-
 
 /* small devices going down */
 @media (max-width: 990px) {
