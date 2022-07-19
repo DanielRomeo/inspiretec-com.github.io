@@ -1058,6 +1058,8 @@ textarea {
 		left: 125%;
 	}
 }
+/* ========= custom button animations =============== */
+
 
 .animate-zoominout {
 	-webkit-animation-name: zoomInOut;
@@ -3425,7 +3427,16 @@ textarea {
 .newsletter-area .newsletter-form .input-field input::-ms-input-placeholder{
 	opacity: 0.5;
 }
+.newsletter-area .newsletter-form .input-field button:hover{
+	background-color: var(--color-primary);
+	/* color: var(--color-secondary); */
+	color: var(--color-white);
+	border: 1px solid var(--color-primary);
+	/* background-color: var(--color-secondary); */
+	/* color: white; */
+}
 .newsletter-area .newsletter-form .input-field button{
+	transition: 0.7s;
 	background-color: var(--color-primary-3);
 	color: var(--color-primary);
 	height: 50px;
@@ -3573,7 +3584,16 @@ textarea {
 	color: var(--color-secondary);
 	font-size: 40px;
 }
+
+.testimonials-section .testimonial-button:hover{
+	background-color: var(--color-secondary);
+	color: white;
+}
 .testimonials-section .testimonial-button{
+	transition: 0.7s;
+	background-color: inherit;
+	z-index: 1;
+	overflow: hidden;
 	width: 400px;
 	border: 3px solid var(--color-secondary);
 	border-radius: 30px;
@@ -3586,7 +3606,7 @@ textarea {
     z-index: 1;
 	color: var(--color-secondary);
 	font-weight: bold;
-	background-color: inherit;
+	
 }
 @media (max-width: 994px) {
 	.testimonials-section{
@@ -3698,7 +3718,12 @@ textarea {
 .template-footer .footer-form .checkbox-group input[type="checkbox"]{
 	accent-color: var(--color-white);
 }
+.testimonials-section .testimonial-button:hover{
+	background-color: var(--color-secondary);
+	color: white;
+}
 .template-footer .footer-form .signup-button{
+	transition: 0.7s;
 	width: 100%;
 	border: 3px solid var(--color-secondary);
 	border-radius: 30px;
@@ -3711,6 +3736,7 @@ textarea {
     z-index: 1;
 	color: var(--color-secondary);
 	font-weight: bold;
+	background-color: inherit;
 }
 .footer-copyright .container .social-media-section-mobile {
 	display: none;
@@ -8884,6 +8910,15 @@ textarea {
 .design-feature-area .container-fluid .row .column-right .template-btn {
 	display: none;
 }
+.design-feature-area .container-fluid .row .column-left .design-feature-text a:hover{
+	background-color: var(--color-primary);
+	color: var(--color-white);
+}
+.design-feature-area .container-fluid .row .column-left .design-feature-text a{
+	transition: 0.7s;
+	margin-left: 20px;
+}
+
 
 /* small devices going down */
 @media (max-width: 990px) {
@@ -8967,11 +9002,8 @@ textarea {
 }
 .app-feature .container-fluid .left-side{
 	padding-left: 0px;
-	/* position: relative; */
 }
 .app-feature .container-fluid .left-side img{
-	/* position: absolute;	 */
-	/* height: 600px; */
 	bottom: 0;
 	left: 0;
 }
@@ -8980,6 +9012,14 @@ textarea {
 }
 .app-feature .container-fluid .bottom-side{
 	display: none;
+}
+.app-feature .container-fluid .collaboration-text .responsive-button:hover{
+	background-color: var(--color-primary);
+	color: var(--color-white);
+}
+.app-feature .container-fluid .collaboration-text .responsive-button{
+	transition: 0.7s;
+	margin-left: 20px;
 }
 /* larger devices going up */
 @media (min-width: 1320px) {
@@ -10728,3 +10768,4 @@ textarea {
 	background-color: var(--color-primary);
 }
 /*# sourceMappingURL=style.css.map */
+
