@@ -633,8 +633,24 @@
         teamSliderOne();
         scrollToTop();
         portfolioFilter();
+        
     });
 
+
+    $(window).on('resize', function(){
+        if(window.innerWidth < 2034){ // when window is still very big but gets bellow 2034px is size... do this...
+            $('.hero-area-v6 .slider-contained  .no-gutters .col-md-9').removeClass('container-fluid   ');
+            $('.hero-area-v6 .slider-contained no-gutters .col-md-9').removeClass('container');
+        } else if (window.innerWidth < 1602) {
+            $('.hero-area-v6 .slider-contained .no-gutters .col-md-9').removeClass('container-fluid   ');
+            $('.hero-area-v6 .slider-contained .no-gutters .col-md-9').removeClass('container');
+        }else if(window.innerWidth >= 2034){ // when window gets bigger than 2034...
+            $('.hero-area-v6 .slider-contained .no-gutters .col-md-9').addClass('container-fluid');
+            $('.hero-area-v6 .slider-contained .no-gutters .col-md-9').removeClass('container');
+        }
+    
+    });
+    
     /*---------------------
     === Window Scroll  ===
     ----------------------*/
