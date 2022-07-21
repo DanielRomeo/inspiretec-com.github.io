@@ -649,11 +649,6 @@
             $('.hero-area-v6 .p-l-50 .no-gutters .col-md-9').removeClass('container');
         }
     
-        // }else { 
-        // // when it becomes greater.. than ..px
-        //     $('.hero-area-v6 .p-l-50 .no-gutters .col-md-9').addClass('container-fluid');
-        //     $('.hero-area-v6 .p-l-50 .no-gutters .col-md-9').removeClass('container');
-        // }
     });
     
     /*---------------------
