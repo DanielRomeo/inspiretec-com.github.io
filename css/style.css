@@ -3323,64 +3323,74 @@ textarea {
 }
 /*======= Hero Section =======*/
 
-.hero-area-v6 .p-l-50 .no-gutters .container-fluid{
+.hero-area-v6 .slider-contained .no-gutters .container-fluid{
 	width: 100%;
 }
+.hero-area-v6 .slider-contained{
+	padding-left: 50;
+}
+/* small devices going down */
+@media(max-width: 425px){
+	.hero-area-v6 .slider-contained{
+		padding-left: 0px;
+	}
+}
+
 /* very large display or higher... */
 @media(min-width: 2034px) and (max-width: 2099px){
-	.hero-area-v6 .p-l-50 .no-gutters .hero-content-container{
+	.hero-area-v6 .slider-contained .no-gutters .hero-content-container{
 		padding-left: 0%;
 	}
 }
 @media(min-width: 2100px){
-	.hero-area-v6 .p-l-50 .no-gutters .container-fluid{
+	.hero-area-v6 .slider-contained .no-gutters .container-fluid{
 		padding-left: 3.6%;
 	}
 }
 @media(min-width: 2200px){
-	.hero-area-v6 .p-l-50 .no-gutters .container-fluid{
+	.hero-area-v6 .slider-contained .no-gutters .container-fluid{
 		padding-left: 5.6%;
 	}
 }
 @media(min-width: 2300px){
-	.hero-area-v6 .p-l-50 .no-gutters .container-fluid{
+	.hero-area-v6 .slider-contained .no-gutters .container-fluid{
 		padding-left: 6%;
 	}
 }
 @media(min-width: 2400px){
-	.hero-area-v6 .p-l-50 .no-gutters .container-fluid{
+	.hero-area-v6 .slider-contained .no-gutters .container-fluid{
 		padding-left: 7%;
 	}
 }
 @media(min-width: 2500px){
-	.hero-area-v6 .p-l-50 .no-gutters .container-fluid{
+	.hero-area-v6 .slider-contained .no-gutters .container-fluid{
 		padding-left: 8.6%;
 	}
 }
 
 @media(max-width: 2033px){
-	.hero-area-v6 .p-l-50 .no-gutters .hero-content-container{
+	.hero-area-v6 .slider-contained .no-gutters .hero-content-container{
 		padding-left: 14%;
 	}
 }
 
 @media(max-width: 2000px){
-	.hero-area-v6 .p-l-50 .no-gutters .hero-content-container{
+	.hero-area-v6 .slider-contained .no-gutters .hero-content-container{
 		padding-left: 12%;
 	}
 }
 @media(max-width: 1900px){
-	.hero-area-v6 .p-l-50 .no-gutters .hero-content-container{
+	.hero-area-v6 .slider-contained .no-gutters .hero-content-container{
 		padding-left: 12%;
 	}
 }
 @media(max-width: 1800px){
-	.hero-area-v6 .p-l-50 .no-gutters .hero-content-container{
+	.hero-area-v6 .slider-contained .no-gutters .hero-content-container{
 		padding-left: 9%;
 	}
 }
 @media(max-width: 1700px){
-	.hero-area-v6 .p-l-50 .no-gutters .hero-content-container{
+	.hero-area-v6 .slider-contained .no-gutters .hero-content-container{
 		padding-left: 8%;
 	}
 }
