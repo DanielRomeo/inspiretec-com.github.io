@@ -171,6 +171,8 @@
 	--font-cs-bold: 'CircularStdBold';
 	--font-cs-medium: 'CircularStdMedium';
 	--font-cs-book: 'CircularStdBook';
+	--color-sunsetyellow: #f6af3a;
+	--color-warmcoral: #ED6C53;
 }
 
 body {
@@ -3549,7 +3551,7 @@ textarea {
 
 /*======= Newsletter Section =======*/
 .newsletter-area{
-	background-color: var(--color-body);
+	background-color: #63656a;
 	color: white;
 	height: 500px;
 }
@@ -3577,11 +3579,8 @@ textarea {
 }
 .newsletter-area .newsletter-form .input-field button:hover{
 	background-color: var(--color-primary);
-	/* color: var(--color-secondary); */
 	color: var(--color-white);
 	border: 1px solid var(--color-primary);
-	/* background-color: var(--color-secondary); */
-	/* color: white; */
 }
 .newsletter-area .newsletter-form .input-field button{
 	transition: 0.7s;
@@ -3729,12 +3728,12 @@ textarea {
 	font-style: italic;
 }
 .testimonials-section .container-fluid .common-heading i{
-	color: var(--color-secondary);
+	color: var(--color-warmcoral);
 	font-size: 40px;
 }
 
 .testimonials-section .testimonial-button:hover{
-	background-color: var(--color-secondary);
+	background-color: var(--color-warmcoral);
 	color: white;
 }
 .testimonials-section .testimonial-button{
@@ -3743,7 +3742,7 @@ textarea {
 	z-index: 1;
 	overflow: hidden;
 	width: 400px;
-	border: 3px solid var(--color-secondary);
+	border: 3px solid var(--color-warmcoral);
 	border-radius: 30px;
 	height: 50px;
 	display: flex;
@@ -3955,7 +3954,7 @@ textarea {
 	font-family: var(--font-cs-medium);
 	line-height: 1.4;
 	margin-bottom: 15px;
-	color: var(--color-primary-3);
+	color: var(--color-warmcoral);
 }
 
 .common-heading .title {
@@ -4769,39 +4768,39 @@ textarea {
 }
 
 .iconic-boxes-v2 .iconic-box.color-3 .title a:hover {
-	color: #f95f75;
+	color: var(--color-warmcoral);
 }
 
 .iconic-boxes-v2 .iconic-box.color-3 .box-link {
-	color: #f95f75;
-	border-color: #f95f75;
+	color: var(--color-warmcoral);
+	border-color: var(--color-warmcoral);;
 }
 
 .iconic-boxes-v2 .iconic-box.color-3 .box-link::after {
-	background-color: #f95f75;
+	background-color: var(--color-warmcoral);;
 }
 
 .iconic-boxes-v2 .iconic-box.color-3:hover .box-link {
 	color: var(--color-white);
-	border-color: #f95f75;
+	border-color: var(--color-warmcoral);;
 }
 
 .iconic-boxes-v2 .iconic-box.color-4 .title a:hover {
-	color: #ED6C49;
+	color: var(--color-warmcoral);;
 }
 
 .iconic-boxes-v2 .iconic-box.color-4 .box-link {
-	color: #ED6C49;
-	border-color: #ED6C49;
+	color: var(--color-warmcoral);;
+	border-color: var(--color-warmcoral);;
 }
 
 .iconic-boxes-v2 .iconic-box.color-4 .box-link::after {
-	background-color: #ED6C49;
+	background-color: var(--color-warmcoral);;
 }
 
 .iconic-boxes-v2 .iconic-box.color-4:hover .box-link {
 	color: var(--color-white);
-	border-color: #ED6C49;
+	border-color: var(--color-warmcoral);;
 }
 
 /*======= Iconic Boxes v3  =======*/
@@ -8950,20 +8949,20 @@ textarea {
 
 }
 .collaboration-section .right-side .common-heading .title{
-	color: var(--color-secondary);
+	color: var(--color-warmcoral);
 }
 .collaboration-section .right-side .collaboration-text p{
 	color: var(--color-grey);
 }
 .collaboration-section .right-side .collaboration-text .template-btn:hover{
-	background-color: var(--color-secondary);
+	background-color: var(--color-warmcoral);
 	color: var(--color-white);
 }
 .collaboration-section .right-side .collaboration-text .template-btn{
 	transition: 0.7s;
 	background-color: inherit;
-	border: 3px solid var(--color-primary-3);
-	color:  var(--color-primary-3);
+	border: 3px solid var(--color-warmcoral);
+	color:  var(--color-warmcoral);
 	font-size: 18px;
 	font-weight: normal;
 	padding-left: 60px;
@@ -9043,12 +9042,12 @@ textarea {
 	top: 0;
 	height:100%;
 	width: 4px;
-	background-color: #F5AC46;
+	background-color: var(--color-sunsetyellow);
 	margin-left: 30px;
 }
 .design-feature-area .container-fluid .row .column-left .design-feature-text a{
 	color: var(--color-primary);
-	background-color: #F5AC46;
+	background-color: var(--color-sunsetyellow);
 	border: 0px;
 }
 .design-feature-area .container-fluid .row .column-right{
@@ -9102,7 +9101,7 @@ textarea {
 	.design-feature-area .container-fluid .row .column-right .responsive-button {
 		display: block;
 		color: var(--color-primary);
-		background-color: #F5AC46;
+		background-color: var(--color-sunsetyellow);
 		border: 0px;
 		text-align: center;
 		margin-top: -90px;
@@ -9140,11 +9139,11 @@ textarea {
 	top: 0;
 	height: 100%;
 	width: 4px;
-	background-color:var(--color-primary-7);
+	background-color: var(--color-warmcoral);
 }
 .app-feature .container-fluid .collaboration-text a{
 	color: var(--color-primary);
-	background-color: var(--color-primary-7);
+	background-color: var(--color-warmcoral);
 	border: 0px;
 }
 .app-feature .container-fluid .left-side{
