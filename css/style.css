@@ -3323,11 +3323,7 @@ textarea {
 }
 /*======= Hero Section =======*/
 
-.hero-area-v6 .p-l-50 .no-gutters .container{
-	border: 1px solid white;	
-}
 .hero-area-v6 .p-l-50 .no-gutters .container-fluid{
-	border: 1px solid white;
 	width: 100%;
 }
 /* very large display or higher... */
