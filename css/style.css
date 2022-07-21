@@ -115,6 +115,7 @@
         ##. Coming Soon
 -----------------------------------------------------------------------------------*/
 /*=======  Fonts =======*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @font-face {
 	font-family: "CircularStdBold";
   src: url("../fonts/circularstd/CircularStdBold.eot");
@@ -182,6 +183,7 @@ body {
 }
 
 * {
+	font-family: 'Montserrat';
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
