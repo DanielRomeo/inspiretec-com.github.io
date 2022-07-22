@@ -3463,11 +3463,6 @@ textarea {
 .information-section .icon-section .icon-image-col{
 	max-height: 100px;
 	align-items: center;
-	/* background-color: green; */
-	/* display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center; */
 	margin-top: 10px;
 }
 
@@ -3477,21 +3472,15 @@ textarea {
 	}
 	.information-section .icon-section .icon-image-col{
 		width: 100px;
-		/* padding: 0px; */
 		padding-right: 2px;
 		padding-left: 2px;
 	}
 	/* left most children */
-	.information-section .icon-section .icon-image-col:nth-child(1),
-	.information-section .icon-section .icon-image-col:nth-child(4){
-		/* background-color: green; */
-		
-	}
+	
 
 	/* right most children */
 	.information-section .icon-section .icon-image-col:nth-child(3),
 	.information-section .icon-section .icon-image-col:nth-child(6){
-		/* background-color: blue; */
 		padding-left: 25px;
 		padding-right: 0px;
 	}
@@ -3509,40 +3498,6 @@ textarea {
 		width: 160px;
 	}
 }
-
-/* .information-section .icon-section .icon-image{
-	
-}
-.information-section .icon-section .icon-image{
-	
-}
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(6) .icon-image,
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(4) .icon-image,
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(3) .icon-image,
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(2) .icon-image,
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(1) .icon-image{
-	height: 100px;
-}
-@media (min-width: 993px) {
-	.information-section .icon-section .contained-row div:nth-last-child(3){
-		padding-left: 54px;
-	}
-}
-@media(min-width: 767px ) and (max-width: 993px){
-	.information-section .icon-section .contained-row div:nth-last-child(3){
-		padding-left: 40px;
-	}
-}
-@media(max-width: 767px ){
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(6) .icon-image,
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(4) .icon-image,
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(3) .icon-image,
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(2) .icon-image,
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(1) .icon-image{
-		height: auto;
-	}
-}
- */
 
 /*======= Feature Section =======*/
 .feature-section{
