@@ -3462,44 +3462,27 @@ textarea {
 }
 .information-section .icon-section .icon-image-col{
 	max-height: 100px;
+	align-items: center;
+	margin-top: 10px;
 }
-.information-section .icon-section .icon-image{
-	
-}
-.information-section .icon-section .icon-image{
-	
-}
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(6) .icon-image,
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(4) .icon-image,
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(3) .icon-image,
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(2) .icon-image,
-.information-section .icon-section .contained-row .icon-image-col:nth-last-child(1) .icon-image{
-	height: 100px;
-}
-@media (min-width: 993px) {
-	.information-section .icon-section .contained-row div:nth-last-child(3){
-		padding-left: 54px;
-	}
-}
-@media(min-width: 767px ) and (max-width: 993px){
-	.information-section .icon-section .contained-row div:nth-last-child(3){
-		/* background-color: green; */
-		padding-left: 40px;
-	}
-}
-@media(max-width: 767px ){
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(6) .icon-image,
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(4) .icon-image,
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(3) .icon-image,
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(2) .icon-image,
-	.information-section .icon-section .contained-row .icon-image-col:nth-last-child(1) .icon-image{
-		height: auto;
-	}
-}
+
 @media (max-width: 396px) {
-	
+	.information-section .icon-section{
+		padding: 10px;
+	}
 	.information-section .icon-section .icon-image-col{
 		width: 100px;
+		padding-right: 2px;
+		padding-left: 2px;
+	}
+	/* left most children */
+	
+
+	/* right most children */
+	.information-section .icon-section .icon-image-col:nth-child(3),
+	.information-section .icon-section .icon-image-col:nth-child(6){
+		padding-left: 25px;
+		padding-right: 0px;
 	}
 }
 
