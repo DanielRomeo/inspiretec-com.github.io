@@ -3452,7 +3452,7 @@ textarea {
 	font-size: 58px;
 }
 .information-section .icon-section .container{
-	max-width: 800px;
+	max-width: 850px;
 }
 .information-section .icon-section .container .contained-row{
 	display: flex;
@@ -3466,6 +3466,27 @@ textarea {
 	margin-top: 10px;
 }
 
+/* these images have alot of white space on the far right... so be careful.  */
+/* for bigger displays, make the right most assets, move to the right a bit... */
+@media (min-width: 768px) {
+	.information-section .icon-section .icon-image-col:nth-child(3),
+	.information-section .icon-section .icon-image-col:nth-child(6){
+		padding: 0px;	
+		 padding-left: 40px;
+		
+	}
+	/* center most assets... */
+	.information-section .icon-section .icon-image-col:nth-child(2),
+	.information-section .icon-section .icon-image-col:nth-child(5){
+		padding-right: 40px;
+	}
+
+	/* left-most assets... */
+	.information-section .icon-section .icon-image-col:nth-child(1),
+	.information-section .icon-section .icon-image-col:nth-child(4){
+		padding-left: 40px;
+	}
+}
 @media (max-width: 396px) {
 	.information-section .icon-section{
 		padding: 10px;

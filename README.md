@@ -7,6 +7,6 @@
 
 - Havent yet worked on the mobile sections of the different sections before moving on to the next section because i still need the images...
 
-- In css, in the button styling located `.design-feature-area .container .row .column-left .design-feature-text a{...}` The orange/yellow color does not exist in the given color-variables. So I used `orange` for now. 
-
 - I have not added any button animations on hover, as I do not yet know what animations need to occur per button.
+
+- The information section images have alot of white space on the far right.. alot of media queries and use of padding had to be used in order to make to site look identical to the design. Careful when treading these waters
