@@ -9053,8 +9053,8 @@ textarea {
 	display: flex;
 	align-items: center;
 	text-align: right;
-	/* padding-left: 200px; */
 }
+
 
 .design-feature-area .container-fluid .row .column-left .design-feature-text .common-text{
 	margin-right: 30px;
@@ -9149,6 +9149,16 @@ textarea {
 		position: absolute;	
 		height: 820px;
 		right: 0;
+	}
+}
+/* extremly large displays... stick the feature text to the right side col */
+@media (min-width: 2573px) {
+	.design-feature-area .container-fluid .row .column-left{
+		position: relative;
+	}
+	.design-feature-area .container-fluid .row .column-left .design-feature-text{
+		position: absolute;
+		right: 0;	
 	}
 }
 
