@@ -3521,43 +3521,43 @@ textarea {
 }
 
 /*======= Feature Section =======*/
-.feature-section{
+#home-feature-section{
 	padding-bottom: 0px;
 }
-.feature-section .iconic-box{
+#home-feature-section .iconic-box{
 	min-height: 450px;
 	margin-bottom: 0px;
-	
 }
-.feature-section .iconic-boxes-v2{
+
+#home-feature-section .iconic-boxes-v2{
 	padding-left: 60px;
 	padding-right: 60px;
 }
-.feature-section .iconic-box p{
+#home-feature-section .iconic-box p{
 	min-height: 200px;
 }
 @media (max-width: 767px) {
-	.feature-section{
+	#home-feature-section{
 		padding-bottom: 0px;
 	}
-	.feature-section .iconic-box p{
+	#home-feature-section .iconic-box p{
 		min-height: auto;
 	}
-	.feature-section .iconic-box{
+	#home-feature-section .iconic-box{
 		text-align: center;
 		height: auto;
 	}
-	.feature-section .iconic-box .box-link {
+	#home-feature-section .iconic-box .box-link {
 		width: auto !important;
 	}
 }
 
 @media (max-width: 411px) {
-	.feature-section .iconic-boxes-v2{
+	#home-feature-section .iconic-boxes-v2{
 		padding-left: 30px;
 		padding-right: 30px;
 	}
-	.feature-section{
+	#home-feature-section{
 		padding-bottom: 20px;
 		/* height: 2400px;	
 		 */
@@ -3963,6 +3963,15 @@ textarea {
 	}
 	
 }
+
+/*======= Products page: feature section =======*/
+#products-feature-section {
+	
+}
+#products-feature-section .container-fluid .iconic-boxes-v2 .iconic-box{
+	
+}
+
 
 /*======= Common Heading =======*/
 .common-heading .tagline {
