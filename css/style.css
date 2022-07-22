@@ -3462,8 +3462,55 @@ textarea {
 }
 .information-section .icon-section .icon-image-col{
 	max-height: 100px;
+	align-items: center;
+	/* background-color: green; */
+	/* display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center; */
+	margin-top: 10px;
 }
-.information-section .icon-section .icon-image{
+
+@media (max-width: 396px) {
+	.information-section .icon-section{
+		padding: 10px;
+	}
+	.information-section .icon-section .icon-image-col{
+		width: 100px;
+		/* padding: 0px; */
+		padding-right: 2px;
+		padding-left: 2px;
+	}
+	/* left most children */
+	.information-section .icon-section .icon-image-col:nth-child(1),
+	.information-section .icon-section .icon-image-col:nth-child(4){
+		/* background-color: green; */
+		
+	}
+
+	/* right most children */
+	.information-section .icon-section .icon-image-col:nth-child(3),
+	.information-section .icon-section .icon-image-col:nth-child(6){
+		/* background-color: blue; */
+		padding-left: 25px;
+		padding-right: 0px;
+	}
+}
+
+@media (min-width: 396px) and (max-width: 520px) {
+	
+	.information-section .icon-section .icon-image-col{
+		width: 130px;
+	}
+}
+@media (min-width: 520px) and (max-width: 578px) {
+	
+	.information-section .icon-section .icon-image-col{
+		width: 160px;
+	}
+}
+
+/* .information-section .icon-section .icon-image{
 	
 }
 .information-section .icon-section .icon-image{
@@ -3483,7 +3530,6 @@ textarea {
 }
 @media(min-width: 767px ) and (max-width: 993px){
 	.information-section .icon-section .contained-row div:nth-last-child(3){
-		/* background-color: green; */
 		padding-left: 40px;
 	}
 }
@@ -3496,25 +3542,7 @@ textarea {
 		height: auto;
 	}
 }
-@media (max-width: 396px) {
-	
-	.information-section .icon-section .icon-image-col{
-		width: 100px;
-	}
-}
-
-@media (min-width: 396px) and (max-width: 520px) {
-	
-	.information-section .icon-section .icon-image-col{
-		width: 130px;
-	}
-}
-@media (min-width: 520px) and (max-width: 578px) {
-	
-	.information-section .icon-section .icon-image-col{
-		width: 160px;
-	}
-}
+ */
 
 /*======= Feature Section =======*/
 .feature-section{
