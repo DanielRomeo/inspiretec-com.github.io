@@ -440,7 +440,7 @@
             speed: 500,
             arrows: true,
             fade: false,
-            dots: true,
+            dots: false,
             swipe: true,
             prevArrow: '',
             nextArrow: '',
