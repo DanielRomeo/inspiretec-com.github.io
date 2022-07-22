@@ -3530,7 +3530,6 @@ textarea {
 	
 }
 .feature-section .iconic-boxes-v2{
-	
 	padding-left: 60px;
 	padding-right: 60px;
 }
@@ -3550,6 +3549,19 @@ textarea {
 	}
 	.feature-section .iconic-box .box-link {
 		width: auto !important;
+	}
+}
+
+@media (max-width: 411px) {
+	.feature-section .iconic-boxes-v2{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.feature-section{
+		padding-bottom: 20px;
+		/* height: 2400px;	
+		 */
+		 height: auto;
 	}
 }
 
