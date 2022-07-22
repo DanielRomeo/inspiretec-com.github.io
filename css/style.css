@@ -9044,7 +9044,7 @@ textarea {
 	display: flex;
 	align-items: center;
 	text-align: right;
-	padding-left: 200px;
+	/* padding-left: 200px; */
 }
 
 .design-feature-area .container-fluid .row .column-left .design-feature-text .common-text{
